@@ -1,5 +1,5 @@
 <?php
-class Produto
+class Produto4
 {
     public $Codigo;
     public $Descricao;
