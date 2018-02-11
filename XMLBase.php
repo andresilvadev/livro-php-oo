@@ -1,0 +1,19 @@
+<?php
+# inclue classe XMLBase
+include_once 'classes/XMLBase.class.php';
+
+class Cachorro extends XMLBase
+{
+    public function __construct($nome, $idade, $raca)
+    {
+        $this->nome = $nome;
+        $this->idade = $idade;
+        $this->raca = $raca;        
+    }
+}
+
+$toto = new Cachorro('Totó', 10, 'Fox Terrier');
+$vava = new Cachorro('Daba', 8, 'Dalmata');
+
+echo $toto->toXML();
+echo $vava->toXML();
