@@ -22,7 +22,7 @@ function Abrir($file = null)
 # Função para manipular o erro
 function manipula_erro($numero, $mensagem, $arquivo, $linha)
 {
-    $mensagem = "Arquivo $arquivo : linha $linha # no. $numero : $mensagem\n";
+    $mensagem = "Arquivo $arquivo : Na linha  $linha : Numero:# n. $numero : Mensagem do tipo do erro: $mensagem\n";
 
     # escreve no log todo tipo de erro
     $log = fopen('erros.log','a');
