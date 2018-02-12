@@ -27,3 +27,10 @@ catch(PDOException $exception)
     die();
 }
 
+/**
+ * Podemos usar
+ * PDO::FETCH_ASSOC
+ * PDO::FETCH_NUM
+ * PDO::BOTH
+ * PDO::OBJ
+ */
