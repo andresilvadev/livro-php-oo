@@ -4,4 +4,4 @@
 
     $sql = "INSERT INTO pessoas (codigo, nome) VALUES ('$codigo', '$nome')";
     echo $sql;
-?>
+?>W
